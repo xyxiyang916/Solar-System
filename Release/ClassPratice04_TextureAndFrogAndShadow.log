@@ -1,0 +1,80 @@
+﻿生成启动时间为 2022/6/2 19:13:40。
+     1>项目“E:\Robot visualization technology\code\opengl\Robot visualization technology\ClassPratice04_TextureAndFrogAndShadow\ClassPratice04_TextureAndFrogAndShadow.vcxproj”在节点 8 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Program Files\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt 3ds.cpp ChancheTexture.cpp main.cpp shared\gltools.cpp shared\math3d.cpp SphereWorldShadow.cpp TeapotFrog.cpp TeaPotTexture.cpp Texture.cpp
+         3ds.cpp
+     1>3ds.cpp(15): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>3ds.cpp(40): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>3ds.cpp(45): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>3ds.cpp(56): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>3ds.cpp(80): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\VC\include\stdio.h(356) : 参见“sprintf”的声明
+         ChancheTexture.cpp
+         main.cpp
+         gltools.cpp
+     1>shared\gltools.cpp(431): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>shared\gltools.cpp(474): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>shared\gltools.cpp(565): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\VC\include\stdio.h(211) : 参见“fopen”的声明
+         math3d.cpp
+         SphereWorldShadow.cpp
+     1>SphereWorldShadow.cpp(35): warning C4101: “iSphere”: 未引用的局部变量
+     1>SphereWorldShadow.cpp(110): warning C4101: “i”: 未引用的局部变量
+         TeapotFrog.cpp
+         TeaPotTexture.cpp
+         Texture.cpp
+     1>Texture.cpp(46): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>Texture.cpp(51): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\VC\include\string.h(118) : 参见“strcat”的声明
+     1>Texture.cpp(52): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\VC\include\string.h(118) : 参见“strcat”的声明
+     1>Texture.cpp(182): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\VC\include\stdio.h(211) : 参见“fopen”的声明
+         D:\Program Files\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt shared\GLee.c
+         GLee.c
+     1>shared\GLee.c(9306): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>shared\GLee.c(9374): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\VC\include\stdio.h(356) : 参见“sprintf”的声明
+       Link:
+         D:\Program Files\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Robot visualization technology\code\opengl\Robot visualization technology\Release\ClassPratice04_TextureAndFrogAndShadow.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Robot visualization technology\code\opengl\Robot visualization technology\Release\ClassPratice04_TextureAndFrogAndShadow.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Robot visualization technology\code\opengl\Robot visualization technology\Release\ClassPratice04_TextureAndFrogAndShadow.lib" /MACHINE:X86 /SAFESEH Release\3ds.obj
+         Release\ChancheTexture.obj
+         Release\main.obj
+         Release\GLee.obj
+         Release\gltools.obj
+         Release\math3d.obj
+         Release\SphereWorldShadow.obj
+         Release\TeapotFrog.obj
+         Release\TeaPotTexture.obj
+         Release\Texture.obj
+         正在生成代码
+         已完成代码的生成
+     1>glut32.lib(glut32.dll) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>glut32.lib(glut32.dll) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>glut32.lib(glut32.dll) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>glut32.lib(glut32.dll) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>glut32.lib(glut32.dll) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>glut32.lib(glut32.dll) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>glut32.lib(glut32.dll) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>glut32.lib(glut32.dll) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>glut32.lib(glut32.dll) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>glut32.lib(glut32.dll) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>glut32.lib(glut32.dll) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>glut32.lib(glut32.dll) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>glut32.lib(glut32.dll) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>glut32.lib(glut32.dll) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>glut32.lib(glut32.dll) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>glut32.lib(glut32.dll) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>glut32.lib(glut32.dll) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>E:\Robot visualization technology\code\opengl\Robot visualization technology\Release\ClassPratice04_TextureAndFrogAndShadow.exe : fatal error LNK1281: 无法生成 SAFESEH 映像。
+     1>已完成生成项目“E:\Robot visualization technology\code\opengl\Robot visualization technology\ClassPratice04_TextureAndFrogAndShadow\ClassPratice04_TextureAndFrogAndShadow.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.81
